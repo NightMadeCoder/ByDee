@@ -232,7 +232,7 @@ header
 }
 
 .header-area {
-  border-bottom: 3px dotted #eee;
+  border-bottom: 2px dotted #eee;
   box-shadow: none;
   background-color: #fff;
   position: absolute;
@@ -251,6 +251,7 @@ header
   min-height: 80px;
   background: transparent;
 }
+
 
 .header-area .main-nav .logo {
   line-height: 100px;
