@@ -96,6 +96,7 @@ a {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
+
 }
 
 ul {
@@ -105,8 +106,9 @@ ul {
 p {
   font-size: 14px;
   line-height: 25px;
-  color: #2a2a2a;
+  color: #7f422f;
 }
+
 
 /* 
 ---------------------------------------------
@@ -189,7 +191,7 @@ body {
 .section-heading h2 {
   font-size: 34px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #7f422f;
 }
 
 .section-heading span {
@@ -220,7 +222,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e!important;
+  color: #7f422f!important;
 }
 
 .background-header .main-nav .nav li:hover a {
@@ -228,7 +230,7 @@ header
 }
 
 .background-header .nav li a.active {
-  color: #2a2a2a!important;
+  color: #7f422f!important;
 }
 
 .header-area {
@@ -426,7 +428,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #7f422f;
   display: block;
   position: absolute;
   width: 30px;
@@ -437,7 +439,7 @@ header
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #7f422f;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -446,7 +448,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #7f422f;
   display: block;
   position: absolute;
   width: 30px;
@@ -457,7 +459,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #7f422f;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -498,23 +500,23 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #1e1e1e;
+  background-color: #7f422f;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #1e1e1e;
+  background-color: #7f422f;
 }
-
+ 
 .header-area .main-nav .menu-trigger.active span:after {
   -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #1e1e1e;
+  background-color: #7f422f;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #1e1e1e;
+  background-color: #7f422f;
 }
 
 .header-area.header-sticky {
@@ -562,7 +564,7 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -728,7 +730,7 @@ banner
   left: 15px;
   bottom: 15px;
   text-align: center;
-  background-color: rgba(42,42,42,.97);
+  background-color: #7f422fcd;
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
@@ -2223,7 +2225,10 @@ responsive
 */
 
 @media (max-width: 1200px) {
-  .main-banner .right-content .right-first-image .thumb .hover-content p {
+  .main-banner .right-content .right-first-image .thumb .hover-content . p {
+    display: block;
+  }
+  .p-section{
     display: none;
   }
 }
@@ -2280,10 +2285,14 @@ responsive
 
 @media (max-width: 767px) {
   .main-banner .left-content .thumb .inner-content .logo{
-    left: 50%;
-    top: 47.5%;
+    left: 30%;
+    top: 27.5%;
     transform: translate(-50%,-50%);
     text-align: center;
+  }
+  .left-content .right-content{
+    grid-row: inherit;
+
   }
   .subscribe form button {
     width: 100%;
@@ -2295,10 +2304,12 @@ responsive
     margin-top: 30px;
   }
 }
-
-
-
-
+@media (max-width: 425px){
+  .logo .menu-trigger {
+   width: 20;
+   height: 25;
+}
+}
 
 #preloader {
   overflow: hidden;
