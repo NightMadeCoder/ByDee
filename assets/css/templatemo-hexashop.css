@@ -386,7 +386,7 @@ header
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #aaa!important;
+  color: #fff!important;
   padding-left: 25px;
 }
 
@@ -2279,7 +2279,7 @@ responsive
 }
 
 @media (max-width: 767px) {
-  .main-banner .left-content .thumb .inner-content {
+  .main-banner .left-content .thumb .inner-content .logo{
     left: 50%;
     top: 47.5%;
     transform: translate(-50%,-50%);
