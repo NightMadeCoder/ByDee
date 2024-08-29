@@ -97,17 +97,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 
+
 }
 
 ul {
   margin-bottom: 0px;
 }
 
-p {
-  font-size: 14px;
-  line-height: 25px;
-  color: #7f422f;
-}
 
 
 /* 
@@ -565,6 +561,8 @@ header
   }
   .header-area .logo {
     margin-left: 20px;
+    width:40px;
+    height: 45px;
   }
   .header-area .menu-trigger {
     display: block !important;
@@ -1481,7 +1479,7 @@ Subscribe
 .subscribe ul li {
   font-size: 16px;
   font-weight: 700;
-  color: #2a2a2a;
+  color: #7f422f;
 }
 
 .subscribe ul li span,
@@ -1505,7 +1503,7 @@ footer
 footer {
   margin-top: 60px;
   padding: 60px 0px 30px 0px;
-  background-color: #2a2a2a;
+  background-color: #7f422fc0;
 }
 
 footer .logo {
@@ -2306,6 +2304,7 @@ responsive
   .logo .menu-trigger {
    width: 20;
    height: 25;
+  
 }
 }
 
