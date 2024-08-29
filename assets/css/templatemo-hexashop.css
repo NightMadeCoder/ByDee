@@ -1899,9 +1899,7 @@ Single Product Page
  
  .quantity input::-webkit-outer-spin-button,
  .quantity input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  margin: 0; }
+  
   
   .quantity.buttons_added .minus:focus,
  .quantity.buttons_added .plus:focus {
@@ -2225,7 +2223,7 @@ responsive
 */
 
 @media (max-width: 1200px) {
-  .main-banner .right-content .right-first-image .thumb .hover-content . p {
+  .main-banner .right-content .right-first-image .thumb .hover-content  {
     display: block;
   }
   .p-section{
